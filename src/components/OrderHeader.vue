@@ -1,17 +1,13 @@
-<!--
- * @Author: Tmier
- * @Date: 2020-07-21 21:38:23
- * @LastEditTime: 2020-07-21 22:56:37
- * @Description: 公共底部页面
---> 
 <template>
-   <div>NavFooter组件</div>
+    <div class='orderHeader'>
+        <h2>OrderHeader组件</h2>
+    </div>
 </template>
 
 <script>
     //import x from ''
     export default {
-        name: 'nav-footer',
+        name:'order-header',
         components: {
 
         },

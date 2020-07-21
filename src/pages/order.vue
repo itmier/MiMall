@@ -1,12 +1,12 @@
 <!--
  * @Author: Tmier
  * @Date: 2020-07-21 21:44:55
- * @LastEditTime: 2020-07-21 21:46:05
+ * @LastEditTime: 2020-07-21 23:00:17
  * @Description: 
 --> 
 <template>
   <div>
-    <nav-header></nav-header>
+    <order-header></order-header>
     <router-view />
     <nav-footer></nav-footer>
   </div>
@@ -14,12 +14,12 @@
 
 <script>
 //import x from ''
-import NavHeader from "../components/NavHeader";
+import OrderHeader from "../components/OrderHeader";
 import NavFooter from "../components/NavFooter";
 export default {
   name: "order",
   components: {
-    NavHeader,
+    OrderHeader,
     NavFooter
   },
   data() {

@@ -1,7 +1,7 @@
 <!--
  * @Author: Tmier
  * @Date: 2020-07-21 21:27:57
- * @LastEditTime: 2020-07-21 21:45:55
+ * @LastEditTime: 2020-07-21 22:47:51
  * @Description: 
 --> 
 <template>
@@ -17,7 +17,7 @@
 import NavHeader from "../components/NavHeader";
 import NavFooter from "../components/NavFooter";
 export default {
-  name: "home",
+  name: "nav-home",
   components: {
     NavHeader,
     NavFooter

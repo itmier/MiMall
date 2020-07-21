@@ -5,7 +5,7 @@
  * @Description: 
 --> 
 <template>
-  <div>Nav-Header</div>
+  <div>Nav-Header组件</div>
 </template>
 
 <script>
